@@ -50,7 +50,7 @@ pub struct Snake {
 // Implementation of methods for Snake struct
 impl Snake {
     // Method to create a new snake with initial position
-    fn new(x: i32, y: i32) -> Snake {
+   pub fn new(x: i32, y: i32) -> Snake {
         let mut body: LinkedList<Block> = LinkedList::new();
         body.push_back(Block { x: x + 2, y });
         body.push_back(Block { x: x + 1, y });
