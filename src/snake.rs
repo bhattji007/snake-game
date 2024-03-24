@@ -68,7 +68,7 @@ impl Snake {
         for block in &self.body {
             count = count + 1;
             if count == 1 {
-                draw_block(SNAKE_COLOR, block.x, block.y, con, g);
+                draw_block(HEAD_COLOR, block.x, block.y, con, g);
             } else {
                 draw_block(SNAKE_COLOR, block.x, block.y, con, g);
             }

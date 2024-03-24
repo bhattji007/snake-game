@@ -59,7 +59,7 @@ impl Game{
         if dir.unwrap()==self.snake.head_direction().opposite(){
             return;
         }
-        // self.update_snake(dir);
+        self.update_snake(dir);
     }
     pub fn draw(&self,con:&Context,g:&mut G2d){
         self.snake.draw(con, g);
@@ -111,12 +111,30 @@ impl Game{
         let mut new_y=rng.gen_range(1,self.height-1);
         while self.snake.overlap_tail(new_x,new_y){
             new_x=rng.gen_range(1, self.width-1);
-            new_y=rng.gen_range(1, self.width-1);
+            new_y=rng.gen_range(1, self.height-1);
         }
 
         self.food_x=new_x;
         self.food_y=new_y;
         self.food_exists=true;
+    }
+    fn update_snake(&mut self,dir:Option<Direction>){
+        if self.check_if_snake_alive(dir){
+            self.snake.move_forward(dir);
+            self.check_eating();
+        }
+        else{
+            self.game_over=true;
+        }
+        self.waiting_time=0.0;
+    }
+    fn restart(&mut self){
+        self.snake=Snake::new(2, 2);
+        self.waiting_time=0.0;
+        self.food_exists=true;
+        self.food_x=6;
+        self.food_y=4;
+        self.game_over=false;
     }
 }
 

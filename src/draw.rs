@@ -9,6 +9,9 @@ const BLOCK_SIZE: f64 = 25.0;
 pub fn to_coord(game_coord: i32) -> f64 {
     (game_coord as f64) * BLOCK_SIZE
 }
+pub fn to_coord_u32(game_coord: i32) -> u32{
+    to_coord(game_coord) as u32
+}
 
 // Function to draw a single block
 pub fn draw_block(color: Color, x: i32, y: i32, con: &Context, g: &mut G2d) {
