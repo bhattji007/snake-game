@@ -2,7 +2,7 @@
 
 Welcome to the Snake Game! This is a simple implementation of the classic Snake game using Rust programming language and the Piston game engine.
 
-<p align="left">  <img src="[https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGF5Y3lyZWgweWd5eHVndDF2a3ZhYXZsMDB2dWtnd2tjcjlxYmhoeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1yMvhR4M47Okw4n8tt/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHIyMjN5OXRxYThodnlocDhiOWh1M3BwdGk1cWxsY3NmcnNmd2VvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lni24Q8EbAu6OMxbl0/giphy.gif)" alt="sniffer" /> 
+<p align="left">  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHIyMjN5OXRxYThodnlocDhiOWh1M3BwdGk1cWxsY3NmcnNmd2VvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lni24Q8EbAu6OMxbl0/giphy.gif" alt="sniffer" /> 
    </p>
 
 ## How to Play
@@ -36,10 +36,10 @@ To play the game locally, follow these steps:
 5. Use the arrow keys and enjoy the game
    
 ## Features
-  -Simple and intuitive controls.
-  -Colorful graphics using the Piston game engine.
-  -Game over detection for collisions with walls or self.
-  -Automatic increasing difficulty as the snake grows longer.
+  - Simple and intuitive controls.
+  - Colorful graphics using the Piston game engine.
+  - Game over detection for collisions with walls or self.
+  - Automatic increasing difficulty as the snake grows longer.
 
 ## Complex Enums and Advanced Rust Concepts
 
