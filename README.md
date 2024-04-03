@@ -2,7 +2,8 @@
 
 Welcome to the Snake Game! This is a simple implementation of the classic Snake game using Rust programming language and the Piston game engine.
 
-<p align="left">  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHIyMjN5OXRxYThodnlocDhiOWh1M3BwdGk1cWxsY3NmcnNmd2VvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lni24Q8EbAu6OMxbl0/giphy.gif" alt="sniffer" /> 
+<p align="left">  
+https://github.com/bhattji007/snake-game/assets/53906268/407a6baf-6205-44fc-90f8-804eeb111fc5
    </p>
 
 ## How to Play
@@ -26,10 +27,6 @@ To play the game locally, follow these steps:
 
 2. Clone this repository to your local machine:
    ```bash
-
-https://github.com/bhattji007/snake-game/assets/53906268/407a6baf-6205-44fc-90f8-804eeb111fc5
-
-
    git clone https://github.com/yourusername/snake-game.git
 3. Navigate to the project :
    ```bash
