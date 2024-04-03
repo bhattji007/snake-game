@@ -2,7 +2,11 @@
 
 Welcome to the Snake Game! This is a simple implementation of the classic Snake game using Rust programming language and the Piston game engine.
 
-<p align="left">  <img src="https://github.com/bhattji007/snake-game/assets/53906268/407a6baf-6205-44fc-90f8-804eeb111fc5">
+
+https://github.com/bhattji007/snake-game/assets/53906268/42ab3bc8-5388-44b6-adcb-cbb73d06f03d
+
+
+<p align="left"> 
    </p>
 
 ## How to Play
